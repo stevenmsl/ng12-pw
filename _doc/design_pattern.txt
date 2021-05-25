@@ -1,0 +1,17 @@
+Angular Approach
+
+- User enters data in an input element or
+  checks a checkbox  
+  - event handler triggered, and the value is
+    stored as a property on the component
+    class instance (collecting properties)
+
+- User clicks a button to perform an action
+  - event handler triggered, and we can use
+    the properties collected earlier 
+    to perform an action
+
+- The action updates some properties on the
+  class instance that will cause an update
+  of other elements that binds to those 
+  properties
